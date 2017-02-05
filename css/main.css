@@ -4,7 +4,218 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+  padding: 0;
+  maring: 0;
+}
 
- html {
-     color: green;
- }
+body{
+  margin: 0;
+  background-color: grey;
+  font-family: "arial", sans-serif;
+}
+
+header {
+  min-height: 535px;
+  background-image: url('../img/monkey_flight.jpg');
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 1366px 535px;
+  padding: 0;
+}
+
+h1 {
+  font-size: 800%;
+  font-family: "Futura",sans-serif;
+  color: white;
+  margin-left: 50px;
+  margin-top: 0;
+  margin-bottom: 0; 
+  padding-top: 30px;
+}
+
+h2 {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 200%;
+  color: white;
+}
+
+.subtitle{
+  font-size:150%;
+  color:white;
+  margin-left: 300px;
+  margin-top: 0; 
+}
+
+header .main-nav {
+  padding-top: 240px;
+  font-size: 150%;
+}
+
+header .main-nav a {
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+header .main-nav a:hover{
+  color: white;
+}
+
+ nav ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;  
+}
+
+#social{
+  background: white;
+  padding: 0;
+  position: fixed;
+  top: 350px;
+  right: 0;
+  width: 25px;
+  transition: 1s width;
+}
+
+#social:hover {
+  width: 125px;
+}
+
+#social h2 {
+  color: black;
+}
+
+#social ul{
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#social li{
+  margin: 0;
+  padding: 0; 
+}
+
+#social li a {
+  text-decoration: none;
+  color: black;
+}
+
+#social li a:hover {
+  color: lightblue;
+}
+
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+#watch h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#watch p {
+  text-align: center;
+  padding-bottom: 40px; 
+}
+
+#watch a {
+  text-decoration: none;
+  color: red;
+  padding: 10px;  
+}
+
+#watch a:hover {
+  color: white;
+}
+
+#listen{
+  min-height: 300px;
+  background-image: url('../img/monkaa_monkeyhang.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#listen h3 {
+  padding-top: 150px;
+  text-align: center;
+}
+
+#listen p {
+  text-align: center;
+  padding-top: 30px; 
+}
+
+#listen a {
+  text-decoration: none;
+  color: red;
+  padding: 10px;  
+}
+
+#listen a:hover {
+  color: white;
+}
+
+audio {
+  display: block;
+  margin: 0 auto;
+}
+#about
+
+.lead {
+  color: #EDDD26;
+  text-align: center;
+  font-size: 150%;
+  padding-left: 150px;
+  paddding-right:150px;
+}
+
+#about ul li {
+  display: inline-block;
+  padding-right: 120px;
+  padding-left: 120px;
+  marigin: auto;
+}
+
+#about img {
+  width: 180px;
+  height: auto;
+}
+
+#about p {
+  text-align: center;
+  padding-left: 40px;
+  padding;right:40px;
+}
+
+footer  {
+ padding-top: 30px;
+ padding-bottom: 0;
+ min-height: 150px;
+ background-color: black;
+ 
+}
+
+footer p {
+  color: white;
+  padding: 20px;
+}
+
+footer .main-nav {
+  text-align: center;
+  padding: 30px;
+}
+
+footer .main-nav a {
+  color: white;
+  text-decoration: none;  
+}
+
+footer .main-nav a:hover{
+  color: red;
+  content-align: center;
+}
+
